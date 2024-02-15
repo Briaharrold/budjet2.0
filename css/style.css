@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Dongle;
     padding: 20px;
     margin: 0;
-    background-color: #f4f4f4;
+    background-image: linear-gradient(rgb(247, 190, 255), rgb(223, 117, 255));
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 #app {
     max-width: 600px;
     margin: auto;
-    background: white;
+    background: linear-gradient(rgb(255, 113, 193), rgb(195, 0, 255));
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -21,11 +24,13 @@ input[type="text"], input[type="number"] {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-
+.bg{
+    background: yellow ;
+}
 button {
     width: 100%;
     padding: 10px;
-    background-color: #5cb85c;
+    background-color: #ff0385;
     color: white;
     border: none;
     border-radius: 5px;
@@ -33,7 +38,7 @@ button {
 }
 
 button:hover {
-    background-color: #4cae4c;
+    background-color: #4f004e;
 }
 
 ul {
