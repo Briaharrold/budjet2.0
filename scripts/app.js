@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add a click event listener to the 'Add Expense' button.
     document.getElementById('addExpense').addEventListener('click', () => {
         // Retrieve the user input values from the expense name and amount fields.
-      name.value;
-   amount.value;
+            name.value;
+            amount.value;
         
         // Check if both name and amount inputs are not empty.
         if (name && amount) {
